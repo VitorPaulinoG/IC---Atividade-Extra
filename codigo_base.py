@@ -1,3 +1,5 @@
+import random
+from typing import List
 class Funcionalidade:
     def __init__(self, nome: str, custo: int, valor: int):
         self.nome = nome
