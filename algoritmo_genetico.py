@@ -19,7 +19,7 @@ def selecao_roleta(populacao: List[list[int]], aptidoes: List[int]):
             return atual
     return populacao[-1]
 
-def reproduz(x: list[int], y: list[int]) -> list[int]:
+def reproduz(x: list[int], y: list[int]):
     n = len(x)
     ponto_corte = random.randint(1, n - 1)
     filho = x[:ponto_corte] + y[ponto_corte:]
